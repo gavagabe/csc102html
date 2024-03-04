@@ -1,0 +1,47 @@
+/* Styling for the secret message */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Set default font */
+    background-color: rgb(240, 240, 240); /* Set background color */
+}
+.container {
+    width: 60%; /* Set container width */
+    margin: 0 auto; /* Center container horizontally */
+    text-align: left; /* Center align text */
+    padding: 20px; /* Add padding */
+    background-color: rgb(255, 255, 255); /* Set container background color */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+h1 {
+    color: rgb(51, 51, 51); /* Set heading color */
+    text-align: center; /* Center align text */
+}
+label {
+    display: inline-block; /* Make labels display inline */
+    margin-bottom: 5px; /* Add bottom margin */
+}
+input[type="text"] {
+    width: 100%; /* Set input width */
+    padding: 8px; /* Add padding */
+    margin-bottom: 10px; /* Add bottom margin */
+    border: 1px solid rgb(204, 204, 204); /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+button {
+    padding: 10px 20px; /* Add padding */
+    background-color: rgb(0, 123, 255); /* Set button background color */
+    color: rgb(255, 255, 255); /* Set button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer */
+}
+button:hover {
+    background-color: rgb(0, 86, 179); /* Change background color on hover */
+}
+#result {
+    margin-top: 20px; /* Add top margin */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    background-color: rgb(216, 240, 236); /* Set result background color */
+    color: rgb(0, 0, 0); /* Set result text color */
+}
