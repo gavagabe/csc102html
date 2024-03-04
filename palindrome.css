@@ -1,0 +1,42 @@
+body {
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 50px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+#inputcontainer {
+    margin-bottom: 30px;
+}
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+#checkbutton {
+    padding: 10px 20px;
+    background-color: #1900ff9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#result {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#tryagain {
+    padding: 5px 5px;
+    background-color: #1900ff9c;
+    color: white;
+    border-style: double;
+    cursor: pointer;
+}
+#exitbutton {
+    padding: 5px 5px;
+    background-color: #1900ff9c;
+    color: white;
+    border-style: double;
+    cursor: pointer;
+}
