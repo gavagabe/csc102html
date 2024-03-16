@@ -25,3 +25,10 @@ document.getElementById("checkbutton").addEventListener("click", function() {
     resultContainer.innerHTML = `<p>Greetings, ${fullName}!</p><p>Message:<br> 
     <br>If you’ve got me, you want to share me; if you share me, you haven’t kept me. What am I?<br>A secret!</p>`;
 });
+// Play ticktok when check button is clicked 
+document.getElementById("checkbutton").addEventListener("click", function() {
+    // Get the audio element
+    var audio = document.getElementById("audio");
+    // Play the audio
+    audio.play();
+});
