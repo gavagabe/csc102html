@@ -1,0 +1,23 @@
+<!-- Created by Gabriel Arevalo -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Move Meme Image Around</title>
+<link rel="stylesheet" href="meme.css">
+</head>
+<body>
+<!-- Container div for the meme image and buttons -->
+<div class="container">
+    <!-- Meme image element with id "meme" -->
+    <img id="meme" src="meme.png" alt="Meme Image">
+    <!-- Start button to start moving the meme image -->
+    <button id="startButton" onclick="startMoving()">Start Meme</button>
+    <!-- Stop button to stop the meme image - with grey out -->
+    <button id="stopButton" onclick="stopMoving()" disabled>Stop Meme</button>
+</div>
+<!-- Inline external JavaScript file -->
+<script src="meme.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* Position of the container relative to its normal position - https://www.w3schools.com/Css/css_positioning.asp */
+.container {
+    position: relative;
+    /* Align text content to the left within the container */
+    text-align: start;
+    /* Add top margin to the container for better visual representation */
+    margin-top: 100px;
+}
+
+/* Rules the meme image - https://css-workshop.com/howto/how-to-move-an-image-in-css/ - https://www.w3schools.com/css/css3_images.asp*/
+#meme {
+    /* Image width never exceeds the container width */
+    max-width: 100%;
+    /* Automatically adjust image height while maintaining aspect ratio */
+    height: auto;
+    /* Position the image absolutely within its containing element */
+    position: absolute;
+    /* Center the image vertically and horizontally within the container */
+    top: 50%;
+    left: 50%;
+    /* Translate the image position by half of its own dimensions to center it - https://www.w3schools.com/Css/css3_2dtransforms.asp*/
+    transform: translate(-50%, -50%);
+}
