@@ -45,3 +45,6 @@ button:hover {
     background-color: rgb(216, 240, 236); /* Set result background color */
     color: rgb(0, 0, 0); /* Set result text color */
 }
+#audioWrapper {
+    display: none; /* Hides audio player */
+}
