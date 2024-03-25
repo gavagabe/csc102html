@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Secret Message</title>
+    <link rel="stylesheet" href="finalcss.css">
+    <script src="stringsuv.js"defer></script>
+</head>
+<body>
+    <a href="https://www.uat.edu">
+        <img src="uat-logo.png" alt="UAT Logo">
+    </a>
+    <nav>
+        <a href="./final.html">Home</a>
+        <a href="./indexfinal.html">See a Meme</a>
+        <a href="./gamefinal.html">Play a Game</a>
+        <a href="./stringsuvfinal.html">Secret Message</a>
+        <a href="./stringsfinal.html">Palindrome</a>
+        <a href="./boardsfinal.html">Career Objective</a>
+        <a href="./memefinal.html">Meme Bounce Around</a>
+    </nav>
+     <!-- Input fields for first name, last name, and zip code - with css container -->
+     <div class="container">
+        <h1>Message for you...</h1>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname">
+        <br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname">
+        <br>
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode">
+        <br>
+        <button id="checkbutton">Check</button>
+        <div id="result"></div>
+    </div>
+    <!-- Audio - auto loops when check button is clicked-->
+    <audio id="audio" loop>
+        <source src="TickTock.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <script>
+      // JavaScript code to get and display the current date
+      var currentDate = new Date();
+      var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      var formattedDate = currentDate.toLocaleDateString('en-US', options);
+      document.getElementById("date").innerHTML = formattedDate;
+    </script>
+    <footer>
+        Gabriel Arevalo<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+    
+    </footer>
+</body>
+</html>

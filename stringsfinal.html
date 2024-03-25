@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Palindrome Checker</title>
+    <link rel="stylesheet" href="finalcss.css">
+    <script src="palindrome.js" defer></script>
+</head>
+<body>
+    <a href="https://www.uat.edu">
+        <img src="uat-logo.png" alt="UAT Logo">
+    </a>
+    <nav>
+        <a href="./final.html">Home</a>
+        <a href="./indexfinal.html">See a Meme</a>
+        <a href="./gamefinal.html">Play a Game</a>
+        <a href="./stringsuvfinal.html">Secret Message</a>
+        <a href="./stringsfinal.html">Palindrome</a>
+        <a href="./boardsfinal.html">Career Objective</a>
+        <a href="./memefinal.html">Meme Bouce Around</a>
+    </nav>
+    <h2>Welcome to the Palindrome Checker!</h2>
+    <div id="inputcontainer">
+        <input type="text" id="wordinput" placeholder="Type a word">
+        <button id="checkbutton">Check it!</button>
+    </div>
+    <div id="result"></div>
+    <h2>Today's Date</h2>
+    <p id="date"></p> 
+    <script>
+      // JavaScript code to get and display the current date
+      var currentDate = new Date();
+      var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      var formattedDate = currentDate.toLocaleDateString('en-US', options);
+      document.getElementById("date").innerHTML = formattedDate;
+    </script>
+    <footer>
+        Gabriel Arevalo<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283<br>
+    
+    </footer>
+</body>
+</html>
